@@ -165,7 +165,7 @@ This repo contains my interested papers related to Autonomous Vehicle Planning. 
 
 
 
-> ***Offline Reinforcement Learning with Implicit Q-Learning*** **arXiv'21** [Paper](https://arxiv.org/abs/2110.06169) | [Code](https://github.com/ikostrikov/implicit q learning)
+> ***Offline Reinforcement Learning with Implicit Q-Learning*** **arXiv'21** [Paper](https://arxiv.org/abs/2110.06169) | [Code](https://github.com/ikostrikov/implicit_q_learning)
 
 
 
@@ -187,7 +187,7 @@ This repo contains my interested papers related to Autonomous Vehicle Planning. 
 
 ### Interaction
 
-> ***M2I: From Factored Marginal Trajectory Prediction to Interactive Prediction*** **CVPR'22** [Paper](https://arxiv.org/abs/2202.11884) | [Code](https://tsinghua- mars- lab.github.io/M2I/)
+> ***M2I: From Factored Marginal Trajectory Prediction to Interactive Prediction*** **CVPR'22** [Paper](https://arxiv.org/abs/2202.11884) | [Code](https://github.com/Tsinghua-MARS-Lab/M2I)
 
 
 
