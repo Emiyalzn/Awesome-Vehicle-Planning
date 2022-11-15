@@ -1,5 +1,5 @@
 # Awesome-Vehicle-Planning
-This repo contains my interested papers related to Autonomous Vehicle Planning. It is worth noting that these articles are broadly related to the topic in my opinion: papers not directly study about vehicle motion planning (e.g. pure RL, IL) may also be collected in the list. You can also refer to more details of these papers in `notes.md`, which records my summarization for the papers. Welcome pull requests for interesting papers!
+This repo contains my interested papers related to Autonomous Vehicle Planning. It is worth noting that these articles are broadly related to the topic in my opinion: papers not directly study about vehicle motion planning (e.g. pure RL, IL) may also be collected in the list. You can also refer to **more details of these papers** in `Notes.md`, which records my summarization for the papers. Welcome pull requests for interesting papers!
 
 ## Planning
 
