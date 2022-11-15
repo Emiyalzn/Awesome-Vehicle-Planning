@@ -1,5 +1,7 @@
 # Paper Notes
 
+Details of the papers in `README.md` (personal notes).
+
 ## Planning
 
 ### RL Related
