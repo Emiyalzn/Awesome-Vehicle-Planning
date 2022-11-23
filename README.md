@@ -5,10 +5,14 @@ This repo collects interesting papers related to Autonomous Vehicle Planning. It
 
 | Subcategory                     | Paper                                                        | Conference                       | Links                                                        |
 | ------------------------------- | ------------------------------------------------------------ | -------------------------------- | ------------------------------------------------------------ |
-| RL Related                      | Rethinking Closed-loop Training for Autonomous Driving       | ECCV'22                          | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990259.pdf) |
+| RL Related                      | Hierarchical Planning Through Goal-Conditioned Offline Reinforcement Learning | arXiv'22                         | [Paper](https://arxiv.org/abs/2205.11790)                    |
+|                                 | Driving by Dreaming: Offline Model-Based Reinforcement Learning for Autonomous Vehicles | Master's Thesis'22               | [Paper](https://www.ri.cmu.edu/app/uploads/2022/08/thesis_final.pdf) |
+|                                 | Rethinking Closed-loop Training for Autonomous Driving       | ECCV'22                          | [Paper](https://www.ecva.net/papers/eccv_2022/papers_ECCV/papers/136990259.pdf) |
+|                                 | Addressing Optimism Bias in Sequence Modeling for Reinforcement Learning | ICML'22                          | [Paper](https://arxiv.org/abs/2207.10295) \| [Code](https://github.com/avillaflor/SPLT-transformer) |
 |                                 | UMBRELLA: Uncertainty-Aware Model-Based Ofﬂine Reinforcement Learning Leveraging Planning | NeurIPS'21 Workshop (Best paper) | [Paper](https://arxiv.org/abs/2110.07067)                    |
 |                                 | Offline Reinforcement Learning for Autonomous Driving with Safety and Exploration Enhancement | NeurIPS'21 Workshop              | [Paper](https://arxiv.org/abs/2110.07067)                    |
 |                                 | Motion Planning for Autonomous Vehicles in the Presence of Uncertainty Using Reinforcement Learning | IROS'21                          | [Paper](https://arxiv.org/abs/2110.00640)                    |
+|                                 | Marrying Motion Forecasting and Ofﬂine Model-Based Reinforcement Learning for Self-Driving Cars | Github'20                        | [Paper](https://xindiwu.github.io/data/motion.pdf)           |
 |                                 | Interpretable End-to-end Urban Autonomous Driving with Latent Deep Reinforcement Learning | arXiv'20                         | [Paper](https://arxiv.org/abs/2001.08726) \| [Code](https://github.com/cjy1992/interp-e2e-driving) |
 |                                 | Model-free Deep Reinforcement Learning for Urban Autonomous Driving | arXiv'19                         | [Paper](https://arxiv.org/abs/1904.09503) \| [Code](https://github.com/cjy1992/interp-e2e-driving) |
 |                                 | Learning to Drive in a Day                                   | arXiv'18                         | [Paper](https://arxiv.org/abs/1807.00412)                    |
@@ -43,7 +47,8 @@ This repo collects interesting papers related to Autonomous Vehicle Planning. It
 | -------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------------------------------------ |
 | Model-based RL | Mismatched No More: Joint Model-Policy Optimization for Model-Based RL | NeurIPS'22             | [Paper](https://arxiv.org/abs/2110.02758)                    |
 |                | Planning with Diffusion for Flexible Behavior Synthesis      | ICML'22                | [Paper](https://arxiv.org/abs/2205.09991)                    |
-| Offline RL     | The In-Sample Softmax for Offline Reinforcement Learning     | ICLR'23 (submitted)    | [Paper](https://openreview.net/forum?id=u-RuvyDYqCM)         |
+| Offline RL     | Hierarchical Decision Transformer                            | arXiv'22               | [Paper](https://arxiv.org/abs/2209.10447)                    |
+|                | The In-Sample Softmax for Offline Reinforcement Learning     | ICLR'23 (submitted)    | [Paper](https://openreview.net/forum?id=u-RuvyDYqCM)         |
 |                | Diffusion Policies as an Expressive Policy Class for Offline Reinforcement Learning | arXiv'22               | [Paper](https://arxiv.org/abs/2208.06193)                    |
 |                | Know Your Boundaries: The Necessity of Explicit Behavioral Cloning in Offline RL | arXiv'22               | [Paper](https://arxiv.org/abs/2206.00695)                    |
 |                | Mildly Conservative Q-Learning for Ofﬂine Reinforcement Learning | NeurIPS'22             | [Paper](https://arxiv.org/abs/2206.04745) \| [Code](https://github.com/dmksjfl/MCQ) |
@@ -52,8 +57,12 @@ This repo collects interesting papers related to Autonomous Vehicle Planning. It
 |                | A Policy-Guided Imitation Approach for Offline Reinforcement Learning | NeurIPS'22             | [Paper](https://arxiv.org/abs/2210.08323) \| [Code](https://github.com/ryanxhr/POR) |
 |                | MOReL: Model-Based Offline Reinforcement Learning            | arXiv'21               | [Paper](https://arxiv.org/abs/2005.05951v3) \| [Code](https://github.com/SwapnilPande/MOReL) |
 |                | Offline Reinforcement Learning with Implicit Q-Learning      | arXiv'21               | [Paper](https://arxiv.org/abs/2110.06169) \| [Code](https://github.com/ikostrikov/implicit_q_learning) |
+|                | Offline Reinforcement Learning from Images with Latent Space Models | PRML'21                | [Paper](https://arxiv.org/abs/2012.11547) \| [Code](https://github.com/rmrafailov/LOMPO) |
 |                | Online and Offline Reinforcement Learning by Planning with a Learned Model | NeurIPS'21 (Spotlight) | [Paper](https://arxiv.org/abs/2104.06294)                    |
 |                | Offline Reinforcement Learning as One Big Sequence Modeling Problem | NeurIPS'21             | [Paper](https://arxiv.org/abs/2106.02039) \| [Code](trajectory-transformer.github.io) |
+|                | Decision Transformer: Reinforcement Learning via Sequence Modeling | NeurIPS'21             | [Paper](https://arxiv.org/abs/2106.01345) \| [Code](https://github.com/kzl/decision-transformer) |
+|                | Uncertainty-Based Ofﬂine Reinforcement Learning with Diversiﬁed Q-Ensemble | NeurIPS'21             | [Paper](https://proceedings.neurips.cc/paper/2021/file/3d3d286a8d153a4a58156d0e02d8570c-Paper.pdf) \| [Code](https://github.com/snu-mllab/EDAC) |
+|                | Conservative Q-Learning for Offline Reinforcement Learning   | NeurIPS'20             | [Paper](https://arxiv.org/abs/2006.04779) \| [Code](https://github.com/aviralkumar2907/CQL) |
 |                | Model-Based Offline Planning                                 | ICLR'21                | [Paper](https://arxiv.org/abs/2008.05556)                    |
 |                | Off-Policy Deep Reinforcement Learning without Exploration   | ICML'19                | [Paper](https://arxiv.org/abs/1812.02900) \| [Code](https://github.com/sfujim/BCQ) |
 
